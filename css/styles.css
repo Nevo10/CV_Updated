@@ -1,0 +1,132 @@
+/******************** SELECTOR TAGS ********************/
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 5.625rem;  /*100% = 16px in middle-sized browser size*/
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Montserrat', serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;    /* boldness */
+
+}
+
+h3 {
+    font-family: 'Montserrat', serif;
+    color: #11999E;
+}
+
+p {
+    color: #40514E;
+    line-height: 2;
+}
+
+hr {
+ color: #EAF6F6;
+ border: 10px;
+ border-style: none;
+ border-top-style: dotted;
+ width: 10%;
+}
+
+/******************** CLASS TAGS ********************/
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.profile {
+    margin: 100px 0 100px 0
+}
+
+.skills {
+    margin: 100px 0 0 0;
+}
+
+.contact-me {
+    margin: 100px 0 100px 0;
+}
+
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 20px 0px 20px 0px;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.pro {text-decoration: underline;}
+
+
+.computer-image {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.guitar-image {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.closing-para {
+    color: #EAF6F6;
+}
+
+.footer-link {
+    padding: 15px 10px 15px 10px;
+    color: #11999E;
+}
+
+
+.myButton {
+	background-color:#599bb3;
+	border-radius:28px;
+	border:1px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/******************** ID TAGS ********************/
